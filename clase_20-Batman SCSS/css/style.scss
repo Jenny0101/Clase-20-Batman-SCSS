@@ -1,0 +1,62 @@
+$bg-primary: rgb(5,5,49);
+$color: white;
+$font-style: italic;
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+}
+header{
+   background-color: darkolivegreen;
+   color: black;
+   &:hover{
+      padding: 20px 10px;
+      background-color: darkslategray;
+      color: gray;
+   }
+   h1{
+      background-color: rgb(5, 5, 49);
+      color: white;
+      font-style: $font-style;
+   }
+
+}
+main{
+   font-size: 14px;
+   line-height: 30px;
+   font-style: $font-style;
+   p{
+      font-style: normal;
+   }
+}
+
+/*Imagen*/
+header
+{background-color: #E6E6E6;
+    position: center;
+   text-align: center;
+}
+
+h1
+{color:$color;
+   background-color:$bg-primary;
+font-family: 'Times New Roman', Times, serif;
+font-size: 26px;
+letter-spacing: 10px;
+}
+
+h2
+{color:$color;
+    background-color:$bg-primary;
+ font-family: 'Times New Roman', sans-serif ;
+font-size: 16px;
+font-style: $font-style;
+}
+
+footer
+{background: $bg-primary;
+color: $color;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: 28px;
+}

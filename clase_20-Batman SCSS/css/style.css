@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-color: darkolivegreen;
+  color: black;
+}
+header:hover {
+  padding: 20px 10px;
+  background-color: darkslategray;
+  color: gray;
+}
+header h1 {
+  background-color: rgb(5, 5, 49);
+  color: white;
+  font-style: italic;
+}
+
+main {
+  font-size: 14px;
+  line-height: 30px;
+  font-style: italic;
+}
+main p {
+  font-style: normal;
+}
+
+/*Imagen*/
+header {
+  background-color: #E6E6E6;
+  position: center;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  background-color: rgb(5, 5, 49);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  color: white;
+  background-color: rgb(5, 5, 49);
+  font-family: "Times New Roman", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+footer {
+  background: rgb(5, 5, 49);
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+}/*# sourceMappingURL=style.css.map */
